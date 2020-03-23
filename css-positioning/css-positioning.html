@@ -4,9 +4,70 @@
 <title>CSS Positioning</title>
 <style>
 
+.a{
+position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+  cursor: wait;
+}
+.b{
+position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  cursor: zoom-out;
+}
+.c{
+position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  cursor: cell;
+}
+.d{
+position: absolute;
+  top: 80px;
+  right: 100px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  z-index: 0;
+}
+.e{
+position: absolute;
+  top: 120px;
+  right: 120px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  z-index: -1;
+}
+.f{
+position: absolute;
+  top: 140px;
+  right: 140px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+  z-index: -2;
+}
 </style>
 </head>
 <body>
 
+<img src ="zion.png" class = "a"></img>
+
+<img src ="zion.png" class = "b"></img>
+
+<img src ="zion.png" class = "c"></img>
+
+<img src ="zion.png" class = "d"></img>
+
+<img src ="zion.png" class = "e"></img>
+
+<img src ="zion.png" class = "f"></img>
 </body>
 </html>
