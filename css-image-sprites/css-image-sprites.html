@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body{
+     background-color: black;
+ }
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 50px;
+  background: url('bigthanos.png') 0 0;
+}
+
+#prev {
+  left: 50px;
+  width: 50px;
+  background: url('bigthanos.png') -50px 0;
+}
+
+#next {
+  left: 100px;
+  width: 50px;
+  background: url('bigthanos.png') -100px 0;
+}
+
+#thanos{
+    left: 150px;
+    width: 50px;
+    background: url('bigthanos.png') -150px 0;
+}
+
+#home a:hover {
+  background: url('bigthanos.png') 0 -51px;
+}
+
+#prev a:hover {
+  background: url('bigthanos.png') -50px -51px;
+}
+
+#next a:hover {
+  background: url('bigthanos.png') -100px -51px;
+}
+#thanos a:hover {
+    background: url('bigthanos.png') -150px -51px;
+}
+
+</style>
+</head>
+<body>
+
+<ul id="navlist">
+  <li id="home"><a href="https://google.com"></a></li>
+  <li id="prev"><a href="https://google.com"></a></li>
+  <li id="next"><a href="https://google.com"></a></li>
+  <li id ="thanos"><a href="https://google.com"></a></li>
+</ul>
+
+</body>
+</html>
